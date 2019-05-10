@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滚回顶部" />
+
+        <Button
+            android:id="@+id/bt_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滚到底部" />
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="sds"/>
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="ewqw" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="rtr"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="rygyte"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="dsgfryhh"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="hjyu"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="0.23"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+

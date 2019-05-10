@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/meaum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="阿里巴巴"
+        android:textColor="@android:color/background_dark"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:background="@drawable/j"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="80dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:hint="请输入账号"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+        android:background="@null"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pw"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="新鲜资讯"
+        android:textColor="@android:color/background_dark" />
+
+    <RadioGroup
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_chose1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/holo_red_dark"
+            android:text="瞅瞅"
+            android:textColor="@android:color/background_dark" />
+
+        <RadioButton
+            android:id="@+id/rb_chose2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:buttonTint="@android:color/holo_red_dark"
+            android:text="隐藏"
+            android:textColor="@android:color/background_dark" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/box_kill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:buttonTint="@android:color/holo_red_dark"
+        android:text="隐藏"
+        android:textColor="@android:color/background_dark" />
+
+    <CheckBox
+        android:id="@+id/box_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:buttonTint="@android:color/holo_orange_light"
+        android:text="全选"
+        android:textColor="@android:color/background_dark" />
+
+    <CheckBox
+        android:id="@+id/box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/box_all"
+        android:buttonTint="@android:color/holo_orange_light"
+        android:text="小程序"
+        android:textColor="@android:color/background_dark" />
+
+    <CheckBox
+        android:id="@+id/box3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/box2"
+        android:buttonTint="@android:color/holo_orange_light"
+        android:text="小精灵"
+        android:textColor="@android:color/background_dark" />
+
+    <CheckBox
+        android:id="@+id/box4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/box3"
+        android:buttonTint="@android:color/holo_orange_light"
+        android:text="抢先"
+        android:textColor="@android:color/background_dark" />
+
+    <ToggleButton
+        android:id="@+id/tb_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:buttonTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/background_dark"
+        android:textOff="白天模式"
+        android:textOn="夜间模式" />
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:showText="true"
+        android:switchMinWidth="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textOff="关"
+        android:textOn="开" />
+
+</RelativeLayout>
